@@ -4,8 +4,12 @@ const Footer = () => {
   return (
     <div>
       <div className="text-center mb-16 flex items-center justify-center flex-col gap-6">
-        <img src={Mehar} alt="Mehar" className="h-24 w-54" />
-        <div className="flex justify-center items-center gap-6">
+        <img
+          src={Mehar}
+          alt="Mehar"
+          className="w-48 h-18 md:h-18 md:w-62 mx-auto my-auto"
+        />
+        <div className="flex justify-center items-center flex-col md:flex-row ">
           <div className="flex justify-center items-center">
             <svg
               viewBox="0 0 24 24"
@@ -21,8 +25,8 @@ const Footer = () => {
                 stroke-linejoin="round"
               />
             </svg>
-            <p className="text-gray-500 text-lg font-semibold">
-              +91-8869033996
+            <p className="text-gray-500 text-sm md:text-lg font-semibold ">
+              8869033996
             </p>
           </div>
 
@@ -41,31 +45,34 @@ const Footer = () => {
                 stroke-linejoin="round"
               />
             </svg>
-            <p className="text-gray-500 text-lg font-semibold">
+            <p className="text-gray-500 text-sm md:text-lg font-semibold">
               info@meharconsultants.com
             </p>
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="border-b border-gray-300 my-2 w-[600px]"></div>
+          <div className="border-b border-gray-300 my-2 md:w-[600px]"></div>
         </div>
-        <div className="flex justify-around items-center gap-6">
-          <a href="" className="text-gray-500 text-sm font-semibold underline">
+        <div className="flex justify-around items-center gap-4 px-4">
+          <a
+            href="/About"
+            className="text-gray-500 text-sm font-semibold underline"
+          >
             About
           </a>
-          <a href="" className="text-gray-500 text-sm font-semibold underline">
+          <a href="/" className="text-gray-500 text-sm font-semibold underline">
             Terms & Conditions
           </a>
-          <a href="" className="text-gray-500 text-sm font-semibold underline">
-            Careers
-          </a>
-          <a href="" className="text-gray-500 text-sm font-semibold underline">
-            Clients
-          </a>
-          <a href="" className="text-gray-500 text-sm font-semibold underline">
+          <a
+            href="/Contact"
+            className="text-gray-500 text-sm font-semibold underline"
+          >
             Contact
           </a>
         </div>
+        <p className="text-gray-500 text-sm font-semibold">
+          125, State Bank Nagar, Paschim Vihar, New Delhi, 110063
+        </p>
         <p className="text-gray-500 text-sm font-semibold">
           Copyright © 2024 Mehar Consultants All Rights Reserved
         </p>

@@ -21,9 +21,12 @@ function ContactForm() {
   return (
     <FadeIn>
       <div className="bg-[#f2f2f2] flex justify-center items-center min-h-[100vh]">
-        <form onSubmit={handleSubmit} className="max-w-md mx-auto">
-          <h2 className="text-5xl font-bold">Contact Us.</h2>
-          <p className="font-semibold text-xl mb-6">
+        <form
+          onSubmit={handleSubmit}
+          className="max-w-md mx-auto p-4 md:p-8 lg:p-8"
+        >
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Contact Us.</h2>
+          <p className="font-semibold text-lg md:text-xl mb-6">
             Let's Connect - Drop Us A Line
             <span className="text-red-600"> _________.</span>
           </p>

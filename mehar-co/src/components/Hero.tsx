@@ -17,7 +17,7 @@ function Hero() {
       >
         <div className="flex justify-center items-center h-[90svh] mx-auto max-w-[1280px] px-6">
           <div>
-            <h1 className="text-5xl font-bold">
+            <h1 className=" text-4xl md:text-5xl font-bold">
               Your Journey To <span className="text-red-600">Success,</span>
               <br />
               Starts With Our Customized
@@ -32,7 +32,7 @@ function Hero() {
             </p>
           </div>
           <div className="HeroSVG">
-            <img src={Rocket} alt="" />
+            <img src={Rocket} alt="" className=" hidden lg:block" />
           </div>
           <div className="divider"></div>
         </div>

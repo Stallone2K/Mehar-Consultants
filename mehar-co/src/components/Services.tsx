@@ -7,22 +7,22 @@ const Why = () => {
       <div className="  p-8">
         <div className="text-center flex items-center justify-center flex-col">
           <FadeIn>
-            <img src={Mehar} alt="Mehar Co Logo" className="w-78" />
+            <img src={Mehar} alt="Mehar Co Logo" className="md:w-78" />
           </FadeIn>
           <FadeIn>
-            <h1 className="text-5xl font-bold mt-4">
+            <h1 className="text-4xl md:text-5xl font-bold mt-4">
               What <span className=" text-red-600">Services</span> Do We Offer ?
             </h1>
           </FadeIn>
           <FadeIn>
-            <h2 className="text-2xl mt-2">
+            <h2 className="text-xl md:text-2xl mt-2">
               Strategic Solutions For Your Business And Career Success.
             </h2>
           </FadeIn>
         </div>
 
         <FadeIn>
-          <p className="text-center mt-4 text-gray-600">
+          <p className="text-center mt-4 text-gray-600 text-md md:text-lg">
             At Mehar Consultants and Services, we’re committed to being a
             dependable business consulting firm, devoted to fostering the growth
             and maximizing the potential of businesses. Our team comprises
@@ -47,7 +47,7 @@ const Why = () => {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="h-12 w-12"
+                className="m:h-12 m:w-12"
               >
                 <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                 <line x1="8" y1="21" x2="16" y2="21"></line>
@@ -56,12 +56,12 @@ const Why = () => {
             </div>
             <div className="flex flex-col items-center">
               <svg
-                width="800px"
-                height="800px"
+                width="50"
+                height="50"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-12 w-12"
+                className="m:h-12 m:w-12"
               >
                 <path
                   d="M14.3308 15.9402L15.6608 14.6101C15.8655 14.403 16.1092 14.2384 16.3778 14.1262C16.6465 14.014 16.9347 13.9563 17.2258 13.9563C17.517 13.9563 17.8052 14.014 18.0739 14.1262C18.3425 14.2384 18.5862 14.403 18.7908 14.6101L20.3508 16.1702C20.5579 16.3748 20.7224 16.6183 20.8346 16.887C20.9468 17.1556 21.0046 17.444 21.0046 17.7351C21.0046 18.0263 20.9468 18.3146 20.8346 18.5833C20.7224 18.8519 20.5579 19.0954 20.3508 19.3L19.6408 20.02C19.1516 20.514 18.5189 20.841 17.8329 20.9541C17.1469 21.0672 16.4427 20.9609 15.8208 20.6501C10.4691 17.8952 6.11008 13.5396 3.35083 8.19019C3.03976 7.56761 2.93414 6.86242 3.04914 6.17603C3.16414 5.48963 3.49384 4.85731 3.99085 4.37012L4.70081 3.65015C5.11674 3.23673 5.67937 3.00464 6.26581 3.00464C6.85225 3.00464 7.41488 3.23673 7.83081 3.65015L9.40082 5.22021C9.81424 5.63615 10.0463 6.19871 10.0463 6.78516C10.0463 7.3716 9.81424 7.93416 9.40082 8.3501L8.0708 9.68018C8.95021 10.8697 9.91617 11.9926 10.9608 13.04C11.9994 14.0804 13.116 15.04 14.3008 15.9102L14.3308 15.9402Z"
@@ -89,12 +89,12 @@ const Why = () => {
             </div>
             <div className="flex flex-col items-center">
               <svg
-                width="800px"
-                height="800px"
+                width="50"
+                height="50"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-12 w-12"
+                className="m:h-12 m:w-12"
               >
                 <path
                   fill-rule="evenodd"
@@ -108,14 +108,14 @@ const Why = () => {
             <div className="flex flex-col items-center">
               <svg
                 fill="#000000"
-                height="800px"
-                width="800px"
+                height="50"
+                width="50"
                 version="1.2"
                 baseProfile="tiny"
                 id="_x31_"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="-63 65 128 128"
-                className="h-12 w-12"
+                className="m:h-12 m:w-12"
               >
                 <path
                   d="M-37.4,95.7h28.5v34.1h-28.5V95.7z M2.4,95.7h22.8v5.7H2.4V95.7z M2.4,124.2h22.8v5.7H2.4V124.2z M2.4,109.9h22.8v5.7H2.4
@@ -128,11 +128,11 @@ const Why = () => {
             <div className="flex flex-col items-center">
               <svg
                 fill="#000000"
-                width="800px"
-                height="800px"
+                width="50"
+                height="50"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-12 w-12"
+                className="m:h-12 m:w-12"
               >
                 <path d="M17.093,1.293l-11.2,11.2a.99.99,0,0,0-.242.391l-1.6,4.8A1,1,0,0,0,5,19a1.014,1.014,0,0,0,.316-.051l4.8-1.6a1.006,1.006,0,0,0,.391-.242l11.2-11.2a1,1,0,0,0,0-1.414l-3.2-3.2A1,1,0,0,0,17.093,1.293ZM9.26,15.526l-2.679.893.893-2.679L17.8,3.414,19.586,5.2ZM3,21H20a1,1,0,0,1,0,2H3a1,1,0,0,1,0-2Z" />
               </svg>
@@ -140,11 +140,13 @@ const Why = () => {
             </div>
             <div className="flex flex-col items-center">
               <svg
+                width={50}
+                height={50}
                 version="1.1"
                 id="_x32_"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                className="h-12 w-12"
+                className="m:h-12 m:w-12"
               >
                 <g>
                   <path

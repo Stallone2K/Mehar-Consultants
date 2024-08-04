@@ -1,15 +1,13 @@
 const Card = () => {
   return (
-    <div className="flex justify-center items-center gap-10">
-      <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
+    <div className="flex justify-center items-center gap-10 flex-col md:flex-row">
+      <div className="flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
         <div className="p-6">
           <svg
-            width="800px"
-            height="800px"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-12 h-12 mb-4 text-gray-900"
+            className="w-6 h-6 md:w-12 md:h-12 mb-4 text-gray-900"
           >
             <path
               d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z"
@@ -29,15 +27,15 @@ const Card = () => {
           <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             Industry Knowledge
           </h5>
-          <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-            Because it's about motivating the doers. Because I'm here to follow
-            my dreams and inspire others.
+          <p className="font-sans text-base antialiased font-light leading-relaxed text-inherit ">
+            With profound expertise, we turn challenges into strategic
+            opportunities for your business.
           </p>
         </div>
-        <div className="p-6 pt-0">
+        <div className="p-6">
           <a href="#" className="inline-block">
             <button
-              className="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+              className="flex items-center md:gap-2 md:px-4 md:py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
             >
               Learn More
@@ -59,31 +57,28 @@ const Card = () => {
           </a>
         </div>
       </div>
-
-      <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
+      <div className="flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
         <div className="p-6">
           <svg
             fill="#000000"
-            width="800px"
-            height="800px"
             viewBox="0 0 32 32"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-12 h-12 mb-4 text-gray-900"
+            className="w-6 h-6 md:w-12 md:h-12 mb-4 text-gray-900"
           >
             <path d="M16 15.503A5.041 5.041 0 1 0 16 5.42a5.041 5.041 0 0 0 0 10.083zm0 2.215c-6.703 0-11 3.699-11 5.5v3.363h22v-3.363c0-2.178-4.068-5.5-11-5.5z" />
           </svg>
           <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             Talent Pool
           </h5>
-          <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-            Because it's about motivating the doers. Because I'm here to follow
-            my dreams and inspire others.
+          <p className="font-sans text-base antialiased font-light leading-relaxed text-inherit ">
+            Our diverse talent pool ensures a wealth of perspectives and skills,
+            driving impactful and effective solutions.
           </p>
         </div>
         <div className="p-6 pt-0">
           <a href="#" className="inline-block">
             <button
-              className="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+              className="flex items-center md:gap-2 md:px-4 md:py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
             >
               Learn More
@@ -105,16 +100,13 @@ const Card = () => {
           </a>
         </div>
       </div>
-
-      <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
+      <div className="flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
         <div className="p-6">
           <svg
-            width="800px"
-            height="800px"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-12 h-12 mb-4 text-gray-900"
+            className="w-6 h-6md:w-12 md:h-12 mb-4 text-gray-900"
           >
             <path
               fill-rule="evenodd"
@@ -126,15 +118,15 @@ const Card = () => {
           <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             Customized Solutions
           </h5>
-          <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-            Because it's about motivating the doers. Because I'm here to follow
-            my dreams and inspire others.
+          <p className="font-sans text-base antialiased font-light leading-relaxed text-inherit">
+            Crafting tailored solutions with precision, we transform your unique
+            needs into exceptional results.
           </p>
         </div>
         <div className="p-6 pt-0">
           <a href="#" className="inline-block">
             <button
-              className="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+              className="flex items-center md:gap-2 md:px-4 md:py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
             >
               Learn More
@@ -156,16 +148,13 @@ const Card = () => {
           </a>
         </div>
       </div>
-
-      <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
+      <div className="flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-72">
         <div className="p-6">
           <svg
-            width="800px"
-            height="800px"
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-12 h-12 mb-4 text-gray-900"
+            className="w-6 h-6 md:w-12 md:h-12 mb-4 text-gray-900"
           >
             <rect width="24" height="24" fill="white" />
             <path
@@ -178,15 +167,15 @@ const Card = () => {
           <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             Quality Assurance
           </h5>
-          <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit">
-            Because it's about motivating the doers. Because I'm here to follow
-            my dreams and inspire others.
+          <p className="font-sans text-base antialiased font-light leading-relaxed text-inherit">
+            Ensuring excellence through quality assurance at every step, we
+            deliver candidates that exceed expectations.
           </p>
         </div>
         <div className="p-6 pt-0">
           <a href="#" className="inline-block">
             <button
-              className="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
+              className="flex items-center md:gap-2 md:px-4 md:py-2 font-sans text-xs font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none hover:bg-gray-900/10 active:bg-gray-900/20"
               type="button"
             >
               Learn More
@@ -213,3 +202,4 @@ const Card = () => {
 };
 
 export default Card;
+

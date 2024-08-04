@@ -60,7 +60,7 @@ function QnA() {
     <Container className="min-h-[100svh] flex justify-center items-center">
       <div className="container mx-auto mt-10">
         <FadeIn>
-          <h1 className="text-5xl font-bold text-center mb-8">
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
             Questions? <span className="text-red-600">Answers.</span>
           </h1>
         </FadeIn>
